@@ -11,10 +11,14 @@ namespace Conversio\Conversation\Tests\Mail;
 use Conversio\Conversation\Mail\MailContainer;
 use Conversio\Mail\Address\Address;
 use Conversio\Mail\Mail;
-use \PHPUnit_Framework_TestCase;
-use \DateTime;
+use DateTime;
+use PHPUnit\Framework\TestCase;
 
-class MailContainerTest extends PHPUnit_Framework_TestCase
+/**
+ * Class MailContainerTest
+ * @package Conversio\Conversation\Tests\Mail
+ */
+class MailContainerTest extends TestCase
 {
     public function testIsEmpty()
     {

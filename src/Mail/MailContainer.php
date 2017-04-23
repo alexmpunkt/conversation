@@ -1,16 +1,14 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: alex
- * Date: 17.12.16
- * Time: 13:18
- */
 namespace Conversio\Conversation\Mail;
 
 use Conversio\Mail\Container\AbstractContainer;
 use Conversio\Mail\Mail;
 
+/**
+ * Class MailContainer
+ * @package Conversio\Conversation\Mail
+ */
 class MailContainer extends AbstractContainer
 {
     /**
@@ -63,5 +61,4 @@ class MailContainer extends AbstractContainer
     {
         return !$this->isEmpty() ? array_reverse(array_values($this->store))[0] : null;
     }
-
 }

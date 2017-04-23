@@ -1,15 +1,13 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: alex
- * Date: 17.12.16
- * Time: 13:16
- */
 namespace Conversio\Conversation;
 
 use Conversio\Conversation\Mail\MailContainer;
 
+/**
+ * Class Conversation
+ * @package Conversio\Conversation
+ */
 class Conversation
 {
     /**
@@ -50,5 +48,4 @@ class Conversation
     {
         $this->id = $id;
     }
-
 }

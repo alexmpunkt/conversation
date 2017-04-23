@@ -9,7 +9,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Conversio\\Conversation\\": "src/Conversation"
+            "Conversio\\Conversation\\": "src",
+            "Conversio\\Conversation\\Tests\\": "tests"
         }
     },
     "repositories": [
@@ -17,5 +18,13 @@
             "type": "git",
             "url": "https://github.com/alexmpunkt/mail.git"
         }
-    ]
+    ],
+    "scripts": {
+        "test": [
+            "phpunit"
+        ],
+        "coverage": [
+            "phpunit --coverage-clover=coverage.xml"
+        ]
+    }
 }

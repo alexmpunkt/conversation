@@ -1,20 +1,17 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: alex
- * Date: 17.12.16
- * Time: 13:33
- */
 namespace Conversio\Conversation\Tests;
 
 use Conversio\Conversation\Conversation;
 use Conversio\Conversation\Mail\MailContainer;
 use \PHPUnit_Framework_TestCase;
 
+/**
+ * Class ConversationTest
+ * @package Conversio\Conversation\Tests
+ */
 class ConversationTest extends PHPUnit_Framework_TestCase
 {
-
     public function testGetId()
     {
         $conversation = new Conversation();
