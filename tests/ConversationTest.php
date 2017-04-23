@@ -4,7 +4,7 @@ namespace Conversio\Conversation\Tests;
 
 use Conversio\Conversation\Conversation;
 use Conversio\Conversation\Mail\MailContainer;
-use \PHPUnit_Framework_TestCase;
+use PHPUnit_Framework_TestCase;
 
 /**
  * Class ConversationTest
